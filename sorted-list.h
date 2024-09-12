@@ -21,6 +21,9 @@ void sorted_list_destroy(sorted_list_t* lst);
 /// Add an element to a sorted list, maintaining the lowest-to-highest sorted value.
 void sorted_list_insert(sorted_list_t* lst, int value);
 
+/// Insertion Sort Algorithm
+void insertion_sort(sorted_list_t* lst);  
+
 /// Count how many times a value appears in a sorted list.
 size_t sorted_list_count(sorted_list_t* lst, int value);
 
