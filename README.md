@@ -5,9 +5,9 @@ Made by Yash Malik
 
 # Usage
 
-insert <integer> : add to list
+insert "integer" : add to list
 
-count <integer> : Prints the number of time the integer is in list
+count "integer" : Prints the number of time the integer is in list
 
 print : prints the list
 
