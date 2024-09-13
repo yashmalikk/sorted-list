@@ -60,7 +60,6 @@ void sorted_list_insert(sorted_list_t* lst, int value) {
   lst->data = realloc(lst->data, sizeof(int)*(lst->length + 1));
   lst->data[lst->length] = value;
   lst->length++;
-  insertion_sort(lst);
 }
 
 /**
@@ -93,6 +92,7 @@ void sorted_list_print(sorted_list_t* lst) {
     printf("%d\n", STACK_EMPTY);
   }
   else{
+    insertion_sort(lst);
     for (size_t i = 0; i < lst->length; i++)
     {
       printf("%d ", *(lst->data + i));
