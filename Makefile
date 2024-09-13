@@ -1,4 +1,4 @@
-CC := gcc
+CC := clang
 CFLAGS := -g -Wall -Werror
 
 all: sorted-list
